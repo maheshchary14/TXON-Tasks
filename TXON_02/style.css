@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap");
+body {
+  background: linear-gradient(
+    rgb(116, 67, 250),
+    rgb(181, 66, 247),
+    rgb(204, 83, 241),
+    rgb(232, 196, 243)
+  );
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+}
+
+#box {
+  text-align: center;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  padding: 1%;
+  margin: 0.5%;
+  font-family: "DM Serif Display", serif;
+  font-size: large;
+  border-radius: 100%;
+  color: rgb(5, 5, 5);
+  border-style: none;
+  cursor: pointer;
+}
+
+#bAC,
+#beq {
+  height: 50px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+.dis {
+  border-radius: 20px;
+  width: 300px;
+  height: 80px;
+  margin: 50px auto;
+  background: linear-gradient(35deg, #ccffff, #ffcccc);
+}
+
+.exp {
+  text-align: right;
+  font-size: medium;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+}
+
+.res {
+  text-align: right;
+  font-size: xx-large;
+  padding-top: 2px;
+  padding-right: 10px;
+}
